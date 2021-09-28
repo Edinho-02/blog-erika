@@ -13,7 +13,10 @@
     <link rel="stylesheet" href="css/estilo.css" />
     <title>Blog Érika Flora</title>
   </head>
-
+  <script
+    language="javascript"
+    src="../blog-erika/javascript/funcoes.js"
+  ></script>
   <body>
     <div id="interface">
       <header id="cabecalho">
@@ -26,34 +29,34 @@
 
         <nav id="menu">
           <h1>Menu Principal</h1>
-          <ul>
+          <ul type="disc">
             <li
               onmouseover="mudaFoto('images/home.png')"
-              onmouseout="mudaFoto('images/brigadeiro-peq-meu')"
+              onmouseout="mudaFoto('images/brigadeiro-peq-meu.jpg')"
             >
               <a href="index.html">Home</a>
             </li>
             <li
               onmouseover="mudaFoto('images/receitas.jpg')"
-              onmouseout="mudaFoto('images/brigadeiro-peq-meu')"
+              onmouseout="mudaFoto('images/brigadeiro-peq-meu.jpg')"
             >
               <a href="receitas.html">Receitas</a>
             </li>
             <li
-              onmouseover="mudaFoto('imagens/fotos.png')"
-              onmouseout="mudaFoto('images/brigadeiro-peq-meu')"
+              onmouseover="mudaFoto('images/fotos.jpg')"
+              onmouseout="mudaFoto('images/brigadeiro-peq-meu.jpg')"
             >
               <a href="fotos.html">Fotos</a>
             </li>
             <li
-              onmouseover="mudaFoto('images/videos.png')"
-              onmouseout="mudaFoto('images/brigadeiro-peq-meu')"
+              onmouseover="mudaFoto('images/videos.jpg')"
+              onmouseout="mudaFoto('images/brigadeiro-peq-meu.jpg')"
             >
               <a href="videos.html">Vídeos</a>
             </li>
             <li
               onmouseover="mudaFoto('images/contato.png')"
-              onmouseout="mudaFoto('images/brigadeiro-peq-meu')"
+              onmouseout="mudaFoto('images/brigadeiro-peq-meu.jpg')"
             >
               <a href="contato.html">Contato</a>
             </li>
@@ -78,6 +81,8 @@
         acesso as fotos dos meus doces, bolos, tortas, etc, receitas deliciosas
         e práticas e meu contato para fazerem seus pedidos.
       </p>
+      <br />
+      <br />
 
       <figure class="foto-legenda">
         <img src="logo/Logo Érika-Bege.jpeg" />
@@ -87,16 +92,25 @@
         </figcaption>
       </figure>
 
+      <br />
+      <br />
+
       <footer id="rodape">
         <p>
-          Copyright 2021 - by Érika Flora.<br />
-          <a href="https://www.facebook.com/erika.flora.16/" target="_blank"
-            >Facebook</a
-          >
-          |
-          <a href="https://www.instagram.com/erika.flora.16/" target="_blank"
-            >Instagram</a
-          >
+          Copyright &copy; 2021 - by Edson Lopes Jr.<br />
+          <a target="_blank" href="https://www.instagram.com/erika.flora.16/">
+            <img
+              class="icon-social"
+              src="../blog-erika/logo/logo instagram.jpg"
+              alt="Icone Facebook"
+          /></a>
+
+          <a target="_blank" href="https://www.facebook.com/erika.flora.16">
+            <img
+              class="icon-social"
+              src="../blog-erika/logo/logo facebook.jpg"
+              alt="Icone Facebook"
+          /></a>
         </p>
       </footer>
     </div>

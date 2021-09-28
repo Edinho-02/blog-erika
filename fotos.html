@@ -1,5 +1,94 @@
-<p>
-  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet illo dolor
-  ad numquam quos labore eos, commodi voluptate alias iste veritatis, facere ut
-  dolorem sit. Quibusdam minus expedita enim aspernatur.
-</p>
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/estilo.css" />
+    <title>Blog Érika Flora</title>
+  </head>
+  <script
+    language="javascript"
+    src="../blog-erika/javascript/funcoes.js"
+  ></script>
+  <body>
+    <div id="interface">
+      <header id="cabecalho">
+        <hgroup>
+          <h1>Érika Flora</h1>
+          <h2>Descubra nossas delícias</h2>
+        </hgroup>
+
+        <img id="icone" src="images/brigadeiro-peq-meu.jpg" />
+
+        <nav id="menu">
+          <h1>Menu Principal</h1>
+          <ul type="disc">
+            <li
+              onmouseover="mudaFoto('images/home.png')"
+              onmouseout="mudaFoto('images/brigadeiro-peq-meu.jpg')"
+            >
+              <a href="index.html">Home</a>
+            </li>
+            <li
+              onmouseover="mudaFoto('images/receitas.jpg')"
+              onmouseout="mudaFoto('images/brigadeiro-peq-meu.jpg')"
+            >
+              <a href="receitas.html">Receitas</a>
+            </li>
+            <li
+              onmouseover="mudaFoto('images/fotos.jpg')"
+              onmouseout="mudaFoto('images/brigadeiro-peq-meu.jpg')"
+            >
+              <a href="fotos.html">Fotos</a>
+            </li>
+            <li
+              onmouseover="mudaFoto('images/videos.jpg')"
+              onmouseout="mudaFoto('images/brigadeiro-peq-meu.jpg')"
+            >
+              <a href="videos.html">Vídeos</a>
+            </li>
+            <li
+              onmouseover="mudaFoto('images/contato.png')"
+              onmouseout="mudaFoto('images/brigadeiro-peq-meu.jpg')"
+            >
+              <a href="contato.html">Contato</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <br />
+      <br />
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet illo
+        dolor ad numquam quos labore eos, commodi voluptate alias iste
+        veritatis, facere ut dolorem sit. Quibusdam minus expedita enim
+        aspernatur.
+      </p>
+      <footer id="rodape">
+        <p>
+          Copyright 2021 - by Edson Lopes Jr.<br />
+          <a target="_blank" href="https://www.instagram.com/erika.flora.16/">
+            <img
+              class="icon-social"
+              src="../blog-erika/logo/logo instagram.jpg"
+              alt="Icone Facebook"
+          /></a>
+
+          <a target="_blank" href="https://www.facebook.com/erika.flora.16">
+            <img
+              class="icon-social"
+              src="../blog-erika/logo/logo facebook.jpg"
+              alt="Icone Facebook"
+          /></a>
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>

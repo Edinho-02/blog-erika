@@ -123,6 +123,14 @@ header#cabecalho h2 {
 
 /* rodapé */
 
-footer#rodape {
+footer#rodape img.icon-social {
+  padding: 8px;
+  height: 30px;
+  border-radius: 10px;
+}
+
+footer#rodape p {
+  text-align: center;
+  padding: 20px;
   border-top: 3px #606060 solid;
 }
