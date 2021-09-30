@@ -1,0 +1,221 @@
+@charset "UTF-8";
+
+ul#albuns-fotos {
+  width: 700px;
+  margin: 0 auto;
+  padding: 50px;
+  overflow: hidden;
+  list-style: none;
+}
+
+ul#albuns-fotos li {
+  float: left;
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  border: 5px solid white;
+  background-color: white;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+  -webkit-transition: all 0.3s ease-in;
+}
+
+ul#albuns-fotos li span {
+  opacity: 0;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  background-color: rgba(0, 0, 0, 0.3);
+  font-size: 9pt;
+  padding: 5px;
+}
+
+ul#albuns-fotos li:hover {
+  -webkit-transform: scale(1.5);
+}
+
+ul#albuns-fotos li:hover span {
+  opacity: 1;
+}
+
+p.nomes {
+  background-color: #fde0a1;
+  color: rgb(82, 54, 2);
+  font-size: 15pt;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+h1 {
+  color: rgb(70, 41, 4);
+  font-size: 10pt;
+  text-shadow: rgba(0, 0, 0, 0.3);
+}
+
+ul#albuns-fotos li#foto01 {
+  background: url("../images/bolo\ de\ brigadeiro\ de\ nozes.jpg") no-repeat;
+  background-position: 50% 50%;
+  background-size: 400px 400px;
+  background-color: white;
+}
+
+ul#albuns-fotos li#foto01:hover {
+  background-position: 0px 0px;
+  background-size: 200px 200px;
+}
+
+ul#albuns-fotos li#foto02 {
+  background: url("../images/bolo\ de\ chocolate\ com\ morango.jpg") no-repeat;
+  background-position: 50% 50%;
+  background-size: 400px 400px;
+  background-color: white;
+}
+
+ul#albuns-fotos li#foto02:hover {
+  background-position: 0px 0px;
+  background-size: 200px 200px;
+}
+
+ul#albuns-fotos li#foto03 {
+  background: url("../images/bolo\ de\ doce\ de\ leite\ com\ ameixa.jpg")
+    no-repeat;
+  background-position: 50% 50%;
+  background-size: 400px 400px;
+  background-color: white;
+}
+
+ul#albuns-fotos li#foto03:hover {
+  background-position: 0px 0px;
+  background-size: 200px 200px;
+}
+
+ul#albuns-fotos li#foto04 {
+  background: url("../images/bolo\ de\ prestígio.jpg") no-repeat;
+  background-position: 50% 50%;
+  background-size: 400px 400px;
+  background-color: white;
+}
+
+ul#albuns-fotos li#foto04:hover {
+  background-position: 0px 0px;
+  background-size: 200px 200px;
+}
+
+ul#albuns-fotos li#foto05 {
+  background: url("../images/bolo\ de\ truffa.jpg") no-repeat;
+  background-position: 50% 50%;
+  background-size: 400px 400px;
+  background-color: white;
+}
+
+ul#albuns-fotos li#foto05:hover {
+  background-position: 0px 0px;
+  background-size: 200px 200px;
+}
+
+ul#albuns-fotos li#foto06 {
+  background: url("../images/bolo\ vintage\ relaxado.jpg") no-repeat;
+  background-position: 50% 50%;
+  background-size: 400px 400px;
+  background-color: white;
+}
+
+ul#albuns-fotos li#foto06:hover {
+  background-position: 0px 0px;
+  background-size: 200px 200px;
+}
+
+ul#albuns-fotos li#foto07 {
+  background: url("../images/brigadeiro\ com\ cereja.jpg") no-repeat;
+  background-position: 50% 50%;
+  background-size: 400px 400px;
+  background-color: white;
+}
+
+ul#albuns-fotos li#foto07:hover {
+  background-position: 0px 0px;
+  background-size: 200px 200px;
+}
+
+ul#albuns-fotos li#foto08 {
+  background: url("../images/brigadeiro\ com\ leite\ em\ pó\ e\ creme\ de\ avelã.jpg")
+    no-repeat;
+  background-position: 50% 50%;
+  background-size: 400px 400px;
+  background-color: white;
+}
+
+ul#albuns-fotos li#foto08:hover {
+  background-position: 0px 0px;
+  background-size: 200px 200px;
+}
+
+ul#albuns-fotos li#foto09 {
+  background: url("../images/brigadeiro\ com\ uva.jpg") no-repeat;
+  background-position: 50% 50%;
+  background-size: 400px 400px;
+  background-color: white;
+}
+
+ul#albuns-fotos li#foto09:hover {
+  background-position: 0px 0px;
+  background-size: 200px 200px;
+}
+
+ul#albuns-fotos li#foto10 {
+  background: url("../images/brigadeiro\ de\ churros.jpg") no-repeat;
+  background-position: 50% 50%;
+  background-size: 400px 400px;
+  background-color: white;
+}
+
+ul#albuns-fotos li#foto10:hover {
+  background-position: 0px 0px;
+  background-size: 200px 200px;
+}
+
+ul#albuns-fotos li#foto11 {
+  background: url("../images/brigadeiro\ tradicional.jpg") no-repeat;
+  background-position: 50% 50%;
+  background-size: 400px 400px;
+  background-color: white;
+}
+
+ul#albuns-fotos li#foto11:hover {
+  background-position: 0px 0px;
+  background-size: 200px 200px;
+}
+
+ul#albuns-fotos li#foto12 {
+  background: url("../images/palha\ italiana.jpg") no-repeat;
+  background-position: 50% 50%;
+  background-size: 400px 400px;
+  background-color: white;
+}
+
+ul#albuns-fotos li#foto12:hover {
+  background-position: 0px 0px;
+  background-size: 200px 200px;
+}
+
+ul#albuns-fotos li#foto13 {
+  background: url("../images/palha\ italiana\ para\ festas.jpg") no-repeat;
+  background-position: 50% 50%;
+  background-size: 400px 400px;
+  background-color: white;
+}
+
+ul#albuns-fotos li#foto13:hover {
+  background-position: 0px 0px;
+  background-size: 200px 200px;
+}
+
+ul#albuns-fotos li#foto14 {
+  background: url("../images/choco\ funny.jpg") no-repeat;
+  background-position: 50% 50%;
+  background-size: 400px 400px;
+  background-color: white;
+}
+
+ul#albuns-fotos li#foto14:hover {
+  background-position: 0px 0px;
+  background-size: 200px 200px;
+}
